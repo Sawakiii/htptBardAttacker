@@ -37,9 +37,9 @@ header {
 main {
     background-color: rgb(236, 236, 236);
     section {
-        padding-top: 300px;
+        padding: 300px 0;
         text-align: center;
-        p {
+        .date {
             text-align: right;
             margin-right: 20px;
         }
@@ -48,6 +48,9 @@ main {
         img {
             margin: 0 auto;
             width: 90%;
+        }
+        .main-p {
+            text-align: left;
         }
 
     }

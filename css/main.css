@@ -29,13 +29,15 @@ header {
 main {
   background-color: #ececec; }
   main section {
-    padding-top: 300px;
+    padding: 300px 0;
     text-align: center; }
-    main section p {
+    main section .date {
       text-align: right;
       margin-right: 20px; }
     main section img {
       margin: 0 auto;
       width: 90%; }
+    main section .main-p {
+      text-align: left; }
 
 /*# sourceMappingURL=main.css.map */
